@@ -6,3 +6,59 @@
 .homewrapper h1 {
   font-size: 5rem;
 }
+
+ .banner .heading-red {
+  background-image: linear-gradient(100deg, rgb(61, 61, 61), #c83c50);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.experience {
+  margin: 2em 0;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.experience_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2em;
+}
+
+.experience_item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.experience_item h3 {
+  flex-basis: 100%;
+  margin-bottom: 0.5em;
+}
+
+.experience_item h4 {
+  flex-basis: 100%;
+  margin-bottom: 0.5em;
+}
+
+.experience_item p {
+  flex-basis: 100%;
+  margin-bottom: 0.5em;
+}
+
+.experience_item ul {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Media query for screen sizes smaller than 768px */
+@media (max-width: 768px) {
+  .experience_grid {
+    grid-template-columns: 1fr;
+  }
+}
