@@ -7,6 +7,40 @@
   font-size: 5rem;
 }
 
+.bannermain {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  justify-content: space-between;
+}
+
+.banner {
+  width:45%;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  width:45%;
+  justify-content: space-around;
+}
+
+.content h2{
+  margin-top: 0;
+  font-size: 2rem;
+  text-align: left;
+}
+.content p,  .content h4{
+  color: #2a2a67;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 500;
+}
+
  .banner .heading-red {
   background-image: linear-gradient(100deg, rgb(61, 61, 61), #c83c50);
   background-clip: text;
@@ -17,9 +51,10 @@
   margin: 2em 0;
 }
 
-.experience h2 {
+.experience h3 {
   text-align: center;
   margin-bottom: 1em;
+  font-size: 2rem;
 }
 
 .experience_grid {
