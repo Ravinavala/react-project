@@ -1,0 +1,29 @@
+/* Footer container */
+.footer_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(200, 60, 80);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 0 10%;
+  color: white;
+}
+
+.footer_section a{
+  color: white;
+}
+
+
+/* Footer columns */
+.footer_col {
+  flex: 1;
+  padding: 1em;
+}
+
+/* Copyright text */
+.copyright {
+  text-align: center;
+  margin-top: 1em;
+  width:100%;
+}
+
