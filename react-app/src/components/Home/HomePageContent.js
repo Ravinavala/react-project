@@ -3,17 +3,24 @@ import classes from "./HomePageContent.module.css"
 const HomePageContent = () => {
 return ( 
    <section className={classes.homewrapper}>
+
+    <div className={classes.bannermain}>  
+    <div className={classes.content}>
+        <h2>Software Engineer </h2>
+        <h4>Creating dynamic solutions with PHP and WordPress expertise.</h4>
+
+        <p>This is sample of my work that I have created using react, used react route to manage link and navigation</p>
+  </div>   
     <div className={classes.banner}>     
-      <div class="banner-content">
-        <h1>Software Engineer 
-        <span class="heading-red">the digital world</span></h1>
-        <p>Agile in mind, spirit, and speed.</p>
-    </div>
-</div>
+    <img src={`${process.env.PUBLIC_URL}/banner.jpg`} alt="banner image" />
+  </div>
+ 
+  </div>
 
 
-     <section className={classes.experience}>
-  <h2>Experience</h2>
+
+<section className={classes.experience}>
+  <h3>Experience</h3>
   <div className={classes.experience_grid}>
     <div className={classes.experience_item}>
       <h3>Company Name</h3>
