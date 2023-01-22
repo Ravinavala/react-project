@@ -1,23 +1,36 @@
 // import { useContext } from "react";
-// import { Link } from "react-router-dom";
+ import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 
 const MainNavigation = () => {
     return <header className={classes.header}>
-        <div className={classes.logo}>My React App</div>
-      <nav>
-        <ul>
-            <li>
-             Home
+        <div className={classes.inner} >
+        <div className={classes.logo}><h1>My React App</h1></div>
+     
+        <ul className={classes.Navigation}>
+        <li>
+           <NavLink
+             className={(navData) =>
+               navData.isActive ? classes.isActive : ""
+             }
+             to="/"
+           >
+             Welcome
+           </NavLink>
+         </li>
+         <li>
+           <NavLink
+             className={(navData) =>
+               navData.isActive ? classes.isActive : ""
+             }
+             to="/about-us"
+           >
+             About Us
+           </NavLink>
+
             </li>
-            <li>
-                About
-t            </li>
-<li>
-                Books
-t            </li>
         </ul>
-      </nav>
+      </div>
 
     </header>
 
