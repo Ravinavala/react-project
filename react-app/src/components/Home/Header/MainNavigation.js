@@ -23,9 +23,9 @@ const MainNavigation = () => {
              className={(navData) =>
                navData.isActive ? classes.isActive : ""
              }
-             to="/about-us"
+             to="/about-me"
            >
-             About Us
+             About me
            </NavLink>
 
             </li>

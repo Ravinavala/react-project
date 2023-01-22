@@ -1,0 +1,29 @@
+.aboutus {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.aboutus .imgblock {
+  width: 50%;
+  padding: 40px;
+  margin-right: 20px;
+}
+.aboutus content {
+  width: 50%;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+/* Team section */
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.team .member {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.team img {
+  width: 100%;
+}
